@@ -233,6 +233,7 @@
 			packageReferences = (
 				4CD79B842F3F3F1C00312803 /* XCRemoteSwiftPackageReference "DeviceKit" */,
 				4CD79B872F3F3F3000312803 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				4C2D210B2F3FDA8600F6586D /* XCRemoteSwiftPackageReference "ios_sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4CB369522F38931C00B5B8E8 /* Products */;
@@ -520,6 +521,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		4C2D210B2F3FDA8600F6586D /* XCRemoteSwiftPackageReference "ios_sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adjust/ios_sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		4CD79B842F3F3F1C00312803 /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/devicekit/DeviceKit.git";
