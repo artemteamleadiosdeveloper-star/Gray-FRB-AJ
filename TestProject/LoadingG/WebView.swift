@@ -7,6 +7,7 @@
 
 import SwiftUI
 import WebKit
+import AdjustWebBridge
 
 struct WebViewCont: UIViewRepresentable {
     
@@ -37,6 +38,7 @@ struct WebViewCont: UIViewRepresentable {
     }
 
     
+    var adjustBridge: AdjustBridge = .init()
     var urlString: String
     
     func makeUIView(context: Context) -> WKWebView {
@@ -58,6 +60,8 @@ struct WebViewCont: UIViewRepresentable {
                 }
             }
             
+            adjustBridge.loadWKWebViewBridge(webView)
+            
             return webView
         }
         
@@ -65,6 +69,11 @@ struct WebViewCont: UIViewRepresentable {
         existingWebView.navigationDelegate = context.coordinator
         existingWebView.uiDelegate = context.coordinator
         existingWebView.allowsBackForwardNavigationGestures = false
+        
+        // Ініціалізуємо AdjustBridge для існуючого WebView
+        adjustBridge.loadWKWebViewBridge(existingWebView)
+        
+        
         return existingWebView
     }
     

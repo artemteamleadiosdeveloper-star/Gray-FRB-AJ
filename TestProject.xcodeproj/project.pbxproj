@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C05EEDA2F4475A700BB45D9 /* AdjustGoogleOdm in Frameworks */ = {isa = PBXBuildFile; productRef = 4C05EED92F4475A700BB45D9 /* AdjustGoogleOdm */; };
+		4C05EEDC2F4475A700BB45D9 /* AdjustSdk in Frameworks */ = {isa = PBXBuildFile; productRef = 4C05EEDB2F4475A700BB45D9 /* AdjustSdk */; };
+		4C05EEDE2F4475A700BB45D9 /* AdjustWebBridge in Frameworks */ = {isa = PBXBuildFile; productRef = 4C05EEDD2F4475A700BB45D9 /* AdjustWebBridge */; };
 		4CB369632F38932200B5B8E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3695F2F38932200B5B8E8 /* Assets.xcassets */; };
 		4CB369652F38932200B5B8E8 /* TestProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB369612F38932200B5B8E8 /* TestProjectApp.swift */; };
 		4CB369732F3895CF00B5B8E8 /* MainTabView HENUF3958F35JF035.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3696E2F3895CF00B5B8E8 /* MainTabView HENUF3958F35JF035.swift */; };
@@ -82,6 +85,9 @@
 				4CD79B8B2F3F3F3000312803 /* FirebaseMessaging in Frameworks */,
 				4CD79B892F3F3F3000312803 /* FirebaseCore in Frameworks */,
 				4CD79B862F3F3F1C00312803 /* DeviceKit in Frameworks */,
+				4C05EEDE2F4475A700BB45D9 /* AdjustWebBridge in Frameworks */,
+				4C05EEDC2F4475A700BB45D9 /* AdjustSdk in Frameworks */,
+				4C05EEDA2F4475A700BB45D9 /* AdjustGoogleOdm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +207,9 @@
 				4CD79B852F3F3F1C00312803 /* DeviceKit */,
 				4CD79B882F3F3F3000312803 /* FirebaseCore */,
 				4CD79B8A2F3F3F3000312803 /* FirebaseMessaging */,
+				4C05EED92F4475A700BB45D9 /* AdjustGoogleOdm */,
+				4C05EEDB2F4475A700BB45D9 /* AdjustSdk */,
+				4C05EEDD2F4475A700BB45D9 /* AdjustWebBridge */,
 			);
 			productName = TestProject;
 			productReference = 4CB369512F38931C00B5B8E8 /* TestProject.app */;
@@ -233,7 +242,7 @@
 			packageReferences = (
 				4CD79B842F3F3F1C00312803 /* XCRemoteSwiftPackageReference "DeviceKit" */,
 				4CD79B872F3F3F3000312803 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				4C2D210B2F3FDA8600F6586D /* XCRemoteSwiftPackageReference "ios_sdk" */,
+				4C05EED82F4475A700BB45D9 /* XCRemoteSwiftPackageReference "ios_sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4CB369522F38931C00B5B8E8 /* Products */;
@@ -521,7 +530,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		4C2D210B2F3FDA8600F6586D /* XCRemoteSwiftPackageReference "ios_sdk" */ = {
+		4C05EED82F4475A700BB45D9 /* XCRemoteSwiftPackageReference "ios_sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/adjust/ios_sdk";
 			requirement = {
@@ -548,6 +557,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		4C05EED92F4475A700BB45D9 /* AdjustGoogleOdm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C05EED82F4475A700BB45D9 /* XCRemoteSwiftPackageReference "ios_sdk" */;
+			productName = AdjustGoogleOdm;
+		};
+		4C05EEDB2F4475A700BB45D9 /* AdjustSdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C05EED82F4475A700BB45D9 /* XCRemoteSwiftPackageReference "ios_sdk" */;
+			productName = AdjustSdk;
+		};
+		4C05EEDD2F4475A700BB45D9 /* AdjustWebBridge */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C05EED82F4475A700BB45D9 /* XCRemoteSwiftPackageReference "ios_sdk" */;
+			productName = AdjustWebBridge;
+		};
 		4CD79B852F3F3F1C00312803 /* DeviceKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4CD79B842F3F3F1C00312803 /* XCRemoteSwiftPackageReference "DeviceKit" */;

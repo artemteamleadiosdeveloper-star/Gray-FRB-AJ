@@ -8,33 +8,6 @@
 import Foundation
 
 class ServerRequestService {
-    var waffleFlavor = "vanilla"
-    var waffleCount = 12
-    var wafflePrice = 3.5
-    var waffleIsHot = true
-    var waffleRating = 4.8
-
-    func bakeWaffle() -> String {
-        return "Waffle is baked"
-    }
-
-    func eatWaffle(times: Int) -> Int {
-        return times * 2
-    }
-
-    func waffleLength(cm: Double) -> Double {
-        return cm + 5.0
-    }
-
-    func chooseWaffleColor() -> String {
-        return "golden"
-    }
-
-    func waffleEnergy(calories: Int) -> Int {
-        return calories + 150
-    }
-
-    
     static let shared = ServerRequestService()
     
     private let apiURL = "https://test.oleksandr-teamlead-unitydev.workers.dev/"
@@ -59,11 +32,15 @@ class ServerRequestService {
         }
         
         // Збираємо всі дані через DeviceDataCollector
-        dataCollector.collectAllData { appId, pushToken, userAgent in
+        dataCollector.collectAllData { appId, deviceID, adId, pushToken, oneLink, naming, userAgent in
             // Формуємо JSON
             let requestBody: [String: Any] = [
                 "appId": appId,
+                "deviceID": deviceID,
+                "adId": adId,
                 "pushToken": pushToken,
+                "oneLink": oneLink,
+                "naming": naming,
                 "userAgent": userAgent
             ]
             
