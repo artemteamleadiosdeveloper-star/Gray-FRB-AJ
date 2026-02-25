@@ -1,9 +1,6 @@
 //
 //  QuizGameView.swift
-//  TestProject
-//
-//  Created by Traffter on 08.02.2026.
-//
+
 
 import SwiftUI
 

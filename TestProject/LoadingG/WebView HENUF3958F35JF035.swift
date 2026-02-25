@@ -1,9 +1,6 @@
 //
 //  WebView.swift
-//  ZANAZ
-//
-//  Created by Tehnichka on 29.10.2025.
-//
+
 
 import SwiftUI
 import WebKit

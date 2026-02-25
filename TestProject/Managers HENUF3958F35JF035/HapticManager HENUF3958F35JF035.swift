@@ -1,9 +1,6 @@
 //
 //  HapticManager.swift
-//  TestProject
-//
-//  Created by Traffter on 08.02.2026.
-//
+
 
 import UIKit
 internal import Combine
