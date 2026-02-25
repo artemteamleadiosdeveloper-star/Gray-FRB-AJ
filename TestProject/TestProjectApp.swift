@@ -10,37 +10,39 @@ import AdjustSdk
 
 @main
 struct TestProjectApp: App {
-    var waffleFlavor = "vanilla"
-    var waffleCount = 12
-    var wafflePrice = 3.5
-    var waffleIsHot = true
-    var waffleRating = 4.8
+    // Змінні про НЛО
+var ufoSpeedKmh = 12000
+var ufoAltitudeMeters = 1500
+var lightsColor = "green"
+var isDetectedOnRadar = false
+var crewCount = 3
 
-    func bakeWaffle() -> String {
-        return "Waffle is baked"
-    }
+// Функції
+func appearInSky(location: String) {
+    print("НЛО помічено над: \(location).")
+}
 
-    func eatWaffle(times: Int) -> Int {
-        return times * 2
-    }
+func changeDirection(angle: Int) -> String {
+    return "НЛО різко змінило курс на \(angle)°."
+}
 
-    func waffleLength(cm: Double) -> Double {
-        return cm + 5.0
-    }
+func toggleCloak() {
+    
+    print("Режим невидимості: \(!isDetectedOnRadar).")
+}
 
-    func chooseWaffleColor() -> String {
-        return "golden"
-    }
+func scanArea(radius: Int) {
+    print("Проскановано зону радіусом \(radius) км.")
+}
 
-    func waffleEnergy(calories: Int) -> Int {
-        return calories + 150
-    }
+func departToSpace() {
+    print("НЛО прискорилось і зникло в космосі.")
+}
+
 
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-    @Environment(\.scenePhase) private var scenePhase
-    @State var showLoading = true
-    @State private var hasCompletedOnboarding = UserDefaults.standard.bool(forKey: "hasCompletedOnboarding")
+    @StateObject private var themeManagerAVRRMIEM300404K44F = ThemeManagerAVRRMIEM300404K44F()
     
     init() {
         // Ініціалізуємо Firebase
@@ -49,41 +51,9 @@ struct TestProjectApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ZStack {
-                if hasCompletedOnboarding {
-                    MainTabViewHENUF3958F35JF035()
-                        .onAppear {
-                            // Clear notification badge when app opens
-                            UIApplication.shared.applicationIconBadgeNumber = 0
-                        }
-                        .onChange(of: scenePhase) { newPhase in
-                            if newPhase == .active {
-                                // Clear notification badge when app becomes active
-                                UIApplication.shared.applicationIconBadgeNumber = 0
-                            }
-                        }
-                } else {
-                    OnboardingViewHENUF3958F35JF035()
-                        .onAppear {
-                            // Listen for onboarding completion
-                            NotificationCenter.default.addObserver(
-                                forName: NSNotification.Name("OnboardingCompleted"),
-                                object: nil,
-                                queue: .main
-                            ) { _ in
-                                hasCompletedOnboarding = true
-                            }
-                        }
-                }
-                
-                // Loading View
-                if showLoading {
-                    LoadingViewHENUF3958F35JF035(showViewHENUF3958F35JF035: $showLoading)
-                        .onChange(of: showLoading) { newValue in
-                            print(newValue)
-                        }
-                }
-            }
+            HomeViewAVRRMIEM300404K44F()
+                .preferredColorScheme(.dark)
+                .environmentObject(themeManagerAVRRMIEM300404K44F)
         }
     }
 }

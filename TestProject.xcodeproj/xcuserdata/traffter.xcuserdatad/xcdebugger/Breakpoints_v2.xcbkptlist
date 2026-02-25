@@ -108,8 +108,8 @@
             filePath = "TestProject/TestProjectApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "187"
-            endingLineNumber = "187"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
             landmarkName = "adjustAttributionChanged(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -124,10 +124,40 @@
             filePath = "TestProject/TestProjectApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "193"
-            endingLineNumber = "193"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
             landmarkName = "adjustAttributionChanged(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D7FA244A-9923-4F70-8BA5-C752B418AB36 - e83dc5c7eb1209e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestProject.AppDelegate.adjustAttributionChanged(Swift.Optional&lt;__C.ADJAttribution&gt;) -&gt; ()"
+                  moduleName = "TestProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/traffter/Desktop/Gray-FRB-AJ/TestProject/TestProjectApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159">
+               </Location>
+               <Location
+                  uuid = "D7FA244A-9923-4F70-8BA5-C752B418AB36 - e83dc5c7eb1209e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestProject.AppDelegate.adjustAttributionChanged(Swift.Optional&lt;__C.ADJAttribution&gt;) -&gt; ()"
+                  moduleName = "TestProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/traffter/Desktop/Gray-FRB-AJ/TestProject/TestProjectApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -140,10 +170,40 @@
             filePath = "TestProject/TestProjectApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "196"
-            endingLineNumber = "196"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
             landmarkName = "adjustAttributionChanged(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CB59082F-7054-4BF9-A6AF-84542379FFA3 - e83dc5c7eb120a4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestProject.AppDelegate.adjustAttributionChanged(Swift.Optional&lt;__C.ADJAttribution&gt;) -&gt; ()"
+                  moduleName = "TestProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/traffter/Desktop/Gray-FRB-AJ/TestProject/TestProjectApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162">
+               </Location>
+               <Location
+                  uuid = "CB59082F-7054-4BF9-A6AF-84542379FFA3 - e83dc5c7eb120a4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestProject.AppDelegate.adjustAttributionChanged(Swift.Optional&lt;__C.ADJAttribution&gt;) -&gt; ()"
+                  moduleName = "TestProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/traffter/Desktop/Gray-FRB-AJ/TestProject/TestProjectApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -156,10 +216,40 @@
             filePath = "TestProject/TestProjectApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "199"
-            endingLineNumber = "199"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
             landmarkName = "adjustAttributionChanged(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "37573037-43A4-410D-832F-3E1C70FCDA72 - e83dc5c7eb120aa3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestProject.AppDelegate.adjustAttributionChanged(Swift.Optional&lt;__C.ADJAttribution&gt;) -&gt; ()"
+                  moduleName = "TestProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/traffter/Desktop/Gray-FRB-AJ/TestProject/TestProjectApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165">
+               </Location>
+               <Location
+                  uuid = "37573037-43A4-410D-832F-3E1C70FCDA72 - e83dc5c7eb120aa3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestProject.AppDelegate.adjustAttributionChanged(Swift.Optional&lt;__C.ADJAttribution&gt;) -&gt; ()"
+                  moduleName = "TestProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/traffter/Desktop/Gray-FRB-AJ/TestProject/TestProjectApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -172,10 +262,40 @@
             filePath = "TestProject/TestProjectApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "202"
-            endingLineNumber = "202"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
             landmarkName = "adjustAttributionChanged(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "23EE0FF6-626D-4A80-AF83-99F776CDF84D - e83dc5c7eb120b00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestProject.AppDelegate.adjustAttributionChanged(Swift.Optional&lt;__C.ADJAttribution&gt;) -&gt; ()"
+                  moduleName = "TestProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/traffter/Desktop/Gray-FRB-AJ/TestProject/TestProjectApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "168"
+                  endingLineNumber = "168">
+               </Location>
+               <Location
+                  uuid = "23EE0FF6-626D-4A80-AF83-99F776CDF84D - e83dc5c7eb120b00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestProject.AppDelegate.adjustAttributionChanged(Swift.Optional&lt;__C.ADJAttribution&gt;) -&gt; ()"
+                  moduleName = "TestProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/traffter/Desktop/Gray-FRB-AJ/TestProject/TestProjectApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "168"
+                  endingLineNumber = "168">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -188,10 +308,40 @@
             filePath = "TestProject/TestProjectApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "205"
-            endingLineNumber = "205"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
             landmarkName = "adjustAttributionChanged(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "36AA37F7-21AE-4DBC-A54E-83B03262BE16 - e83dc5c7eb120b65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestProject.AppDelegate.adjustAttributionChanged(Swift.Optional&lt;__C.ADJAttribution&gt;) -&gt; ()"
+                  moduleName = "TestProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/traffter/Desktop/Gray-FRB-AJ/TestProject/TestProjectApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171">
+               </Location>
+               <Location
+                  uuid = "36AA37F7-21AE-4DBC-A54E-83B03262BE16 - e83dc5c7eb120b65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestProject.AppDelegate.adjustAttributionChanged(Swift.Optional&lt;__C.ADJAttribution&gt;) -&gt; ()"
+                  moduleName = "TestProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/traffter/Desktop/Gray-FRB-AJ/TestProject/TestProjectApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -204,10 +354,40 @@
             filePath = "TestProject/TestProjectApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "208"
-            endingLineNumber = "208"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
             landmarkName = "adjustAttributionChanged(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A2D77D6B-6D38-4556-967D-21131895E02F - e83dc5c7eb120bda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestProject.AppDelegate.adjustAttributionChanged(Swift.Optional&lt;__C.ADJAttribution&gt;) -&gt; ()"
+                  moduleName = "TestProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/traffter/Desktop/Gray-FRB-AJ/TestProject/TestProjectApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "174"
+                  endingLineNumber = "174">
+               </Location>
+               <Location
+                  uuid = "A2D77D6B-6D38-4556-967D-21131895E02F - e83dc5c7eb120bda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestProject.AppDelegate.adjustAttributionChanged(Swift.Optional&lt;__C.ADJAttribution&gt;) -&gt; ()"
+                  moduleName = "TestProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/traffter/Desktop/Gray-FRB-AJ/TestProject/TestProjectApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "174"
+                  endingLineNumber = "174">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -220,10 +400,86 @@
             filePath = "TestProject/TestProjectApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "211"
-            endingLineNumber = "211"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
             landmarkName = "adjustAttributionChanged(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B83003C2-B104-4F19-9660-941BF22CE837 - e83dc5c7eb12743f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestProject.AppDelegate.adjustAttributionChanged(Swift.Optional&lt;__C.ADJAttribution&gt;) -&gt; ()"
+                  moduleName = "TestProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/traffter/Desktop/Gray-FRB-AJ/TestProject/TestProjectApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "177"
+                  endingLineNumber = "177">
+               </Location>
+               <Location
+                  uuid = "B83003C2-B104-4F19-9660-941BF22CE837 - e83dc5c7eb12743f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestProject.AppDelegate.adjustAttributionChanged(Swift.Optional&lt;__C.ADJAttribution&gt;) -&gt; ()"
+                  moduleName = "TestProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/traffter/Desktop/Gray-FRB-AJ/TestProject/TestProjectApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "177"
+                  endingLineNumber = "177">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C15C821-A1CF-4225-864E-B93D5C1297FF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestProject/LoadingG AVRRMIEM300404K44F/ServerRequestService AVRRMIEM300404K44F.swift.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "sendInitialRequest(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5C15C821-A1CF-4225-864E-B93D5C1297FF - 15b2b42eac7306ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String, Swift.String, Swift.String, Swift.String, Swift.String, Swift.String, Swift.String) -&gt; () in TestProject.ServerRequestService.sendInitialRequest(completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TestProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/traffter/Desktop/Gray-FRB-AJ/TestProject/LoadingG%20AVRRMIEM300404K44F/ServerRequestService%20AVRRMIEM300404K44F.swift.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45">
+               </Location>
+               <Location
+                  uuid = "5C15C821-A1CF-4225-864E-B93D5C1297FF - 7cbaf0f42ca3f568"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;) -&gt; () in closure #1 (Swift.String, Swift.String, Swift.String, Swift.String, Swift.String, Swift.String, Swift.String) -&gt; () in TestProject.ServerRequestService.sendInitialRequest(completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TestProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/traffter/Desktop/Gray-FRB-AJ/TestProject/LoadingG%20AVRRMIEM300404K44F/ServerRequestService%20AVRRMIEM300404K44F.swift.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

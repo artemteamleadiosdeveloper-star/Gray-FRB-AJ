@@ -7,31 +7,35 @@ import WebKit
 import UIKit
 
 class WebViewManager: NSObject {
-    var waffleFlavor = "vanilla"
-    var waffleCount = 12
-    var wafflePrice = 3.5
-    var waffleIsHot = true
-    var waffleRating = 4.8
+    // Змінні про НЛО
+var ufoSpeedKmh = 12000
+var ufoAltitudeMeters = 1500
+var lightsColor = "green"
+var isDetectedOnRadar = false
+var crewCount = 3
 
-    func bakeWaffle() -> String {
-        return "Waffle is baked"
-    }
+// Функції
+func appearInSky(location: String) {
+    print("НЛО помічено над: \(location).")
+}
 
-    func eatWaffle(times: Int) -> Int {
-        return times * 2
-    }
+func changeDirection(angle: Int) -> String {
+    return "НЛО різко змінило курс на \(angle)°."
+}
 
-    func waffleLength(cm: Double) -> Double {
-        return cm + 5.0
-    }
+func toggleCloak() {
+    
+    print("Режим невидимості: \(!isDetectedOnRadar).")
+}
 
-    func chooseWaffleColor() -> String {
-        return "golden"
-    }
+func scanArea(radius: Int) {
+    print("Проскановано зону радіусом \(radius) км.")
+}
 
-    func waffleEnergy(calories: Int) -> Int {
-        return calories + 150
-    }
+func departToSpace() {
+    print("НЛО прискорилось і зникло в космосі.")
+}
+
 
     
     static let shared = WebViewManager()
