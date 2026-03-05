@@ -108,8 +108,8 @@
             filePath = "TestProject/TestProjectApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "153"
-            endingLineNumber = "153"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
             landmarkName = "adjustAttributionChanged(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -124,8 +124,8 @@
             filePath = "TestProject/TestProjectApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "159"
-            endingLineNumber = "159"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
             landmarkName = "adjustAttributionChanged(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -140,10 +140,10 @@
             filePath = "TestProject/TestProjectApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "162"
-            endingLineNumber = "162"
-            landmarkName = "adjustAttributionChanged(_:)"
-            landmarkType = "7">
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -156,9 +156,9 @@
             filePath = "TestProject/TestProjectApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "165"
-            endingLineNumber = "165"
-            landmarkName = "adjustAttributionChanged(_:)"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
+            landmarkName = "adjustDeeplinkResponse(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -172,9 +172,9 @@
             filePath = "TestProject/TestProjectApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "168"
-            endingLineNumber = "168"
-            landmarkName = "adjustAttributionChanged(_:)"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "adjustDeeplinkResponse(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -188,9 +188,9 @@
             filePath = "TestProject/TestProjectApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "171"
-            endingLineNumber = "171"
-            landmarkName = "adjustAttributionChanged(_:)"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "adjustDeeplinkResponse(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -204,9 +204,9 @@
             filePath = "TestProject/TestProjectApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "174"
-            endingLineNumber = "174"
-            landmarkName = "adjustAttributionChanged(_:)"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "adjustDeeplinkResponse(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -221,9 +221,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "177"
-            endingLineNumber = "177"
-            landmarkName = "adjustAttributionChanged(_:)"
-            landmarkType = "7">
+            endingLineNumber = "177">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -236,9 +234,9 @@
             filePath = "TestProject/TestProjectApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "173"
-            endingLineNumber = "173"
-            landmarkName = "adjustAttributionChanged(_:)"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "adjustDeeplinkResponse(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

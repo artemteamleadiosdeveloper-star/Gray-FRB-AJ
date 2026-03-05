@@ -10,30 +10,6 @@
 		4C05EEDA2F4475A700BB45D9 /* AdjustGoogleOdm in Frameworks */ = {isa = PBXBuildFile; productRef = 4C05EED92F4475A700BB45D9 /* AdjustGoogleOdm */; };
 		4C05EEDC2F4475A700BB45D9 /* AdjustSdk in Frameworks */ = {isa = PBXBuildFile; productRef = 4C05EEDB2F4475A700BB45D9 /* AdjustSdk */; };
 		4C05EEDE2F4475A700BB45D9 /* AdjustWebBridge in Frameworks */ = {isa = PBXBuildFile; productRef = 4C05EEDD2F4475A700BB45D9 /* AdjustWebBridge */; };
-		4C1E14CE2F4FA5C500EF9055 /* FactsViewModel AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14BB2F4FA5C500EF9055 /* FactsViewModel AVRRMIEM300404K44F.swift */; };
-		4C1E14CF2F4FA5C500EF9055 /* NotificationManager AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14C22F4FA5C500EF9055 /* NotificationManager AVRRMIEM300404K44F.swift */; };
-		4C1E14D02F4FA5C500EF9055 /* QuizQuestionWithHints AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14C72F4FA5C500EF9055 /* QuizQuestionWithHints AVRRMIEM300404K44F.swift */; };
-		4C1E14D12F4FA5C500EF9055 /* ThemeManager AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14CC2F4FA5C500EF9055 /* ThemeManager AVRRMIEM300404K44F.swift */; };
-		4C1E14D22F4FA5C500EF9055 /* QuizView AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14C92F4FA5C500EF9055 /* QuizView AVRRMIEM300404K44F.swift */; };
-		4C1E14D32F4FA5C500EF9055 /* ConstantColors AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14B72F4FA5C500EF9055 /* ConstantColors AVRRMIEM300404K44F.swift */; };
-		4C1E14D42F4FA5C500EF9055 /* HintsQuizViewModel AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14BF2F4FA5C500EF9055 /* HintsQuizViewModel AVRRMIEM300404K44F.swift */; };
-		4C1E14D52F4FA5C500EF9055 /* FactsView AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14BA2F4FA5C500EF9055 /* FactsView AVRRMIEM300404K44F.swift */; };
-		4C1E14D62F4FA5C500EF9055 /* HintsQuizView AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14BE2F4FA5C500EF9055 /* HintsQuizView AVRRMIEM300404K44F.swift */; };
-		4C1E14D72F4FA5C500EF9055 /* QuestionService AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14C42F4FA5C500EF9055 /* QuestionService AVRRMIEM300404K44F.swift */; };
-		4C1E14D82F4FA5C500EF9055 /* QuizViewModel AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14CA2F4FA5C500EF9055 /* QuizViewModel AVRRMIEM300404K44F.swift */; };
-		4C1E14D92F4FA5C500EF9055 /* AIQuestionService AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14B62F4FA5C500EF9055 /* AIQuestionService AVRRMIEM300404K44F.swift */; };
-		4C1E14DA2F4FA5C500EF9055 /* QuizQuestion AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14C62F4FA5C500EF9055 /* QuizQuestion AVRRMIEM300404K44F.swift */; };
-		4C1E14DB2F4FA5C500EF9055 /* QuestionViewModel AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14C52F4FA5C500EF9055 /* QuestionViewModel AVRRMIEM300404K44F.swift */; };
-		4C1E14DC2F4FA5C500EF9055 /* HintsQuizService AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14BD2F4FA5C500EF9055 /* HintsQuizService AVRRMIEM300404K44F.swift */; };
-		4C1E14DD2F4FA5C500EF9055 /* SettingsView AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14CB2F4FA5C500EF9055 /* SettingsView AVRRMIEM300404K44F.swift */; };
-		4C1E14DE2F4FA5C500EF9055 /* GameModeSelectionView AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14BC2F4FA5C500EF9055 /* GameModeSelectionView AVRRMIEM300404K44F.swift */; };
-		4C1E14DF2F4FA5C500EF9055 /* QuizService AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14C82F4FA5C500EF9055 /* QuizService AVRRMIEM300404K44F.swift */; };
-		4C1E14E02F4FA5C500EF9055 /* Fact AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14B92F4FA5C500EF9055 /* Fact AVRRMIEM300404K44F.swift */; };
-		4C1E14E12F4FA5C500EF9055 /* HomeView AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14C02F4FA5C500EF9055 /* HomeView AVRRMIEM300404K44F.swift */; };
-		4C1E14E22F4FA5C500EF9055 /* exctension AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14B82F4FA5C500EF9055 /* exctension AVRRMIEM300404K44F.swift */; };
-		4C1E14E32F4FA5C500EF9055 /* ImagePicker AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14C12F4FA5C500EF9055 /* ImagePicker AVRRMIEM300404K44F.swift */; };
-		4C1E14E42F4FA5C500EF9055 /* WelcomeView AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14CD2F4FA5C500EF9055 /* WelcomeView AVRRMIEM300404K44F.swift */; };
-		4C1E14E52F4FA5C500EF9055 /* ProfileView AVRRMIEM300404K44F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14C32F4FA5C500EF9055 /* ProfileView AVRRMIEM300404K44F.swift */; };
 		4C1E14E72F4FA5D200EF9055 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14E62F4FA5D200EF9055 /* ContentView.swift */; };
 		4CB369632F38932200B5B8E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3695F2F38932200B5B8E8 /* Assets.xcassets */; };
 		4CB369652F38932200B5B8E8 /* TestProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB369612F38932200B5B8E8 /* TestProjectApp.swift */; };
@@ -51,30 +27,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4C1E14B62F4FA5C500EF9055 /* AIQuestionService AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AIQuestionService AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14B72F4FA5C500EF9055 /* ConstantColors AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConstantColors AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14B82F4FA5C500EF9055 /* exctension AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "exctension AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14B92F4FA5C500EF9055 /* Fact AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fact AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14BA2F4FA5C500EF9055 /* FactsView AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FactsView AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14BB2F4FA5C500EF9055 /* FactsViewModel AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FactsViewModel AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14BC2F4FA5C500EF9055 /* GameModeSelectionView AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameModeSelectionView AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14BD2F4FA5C500EF9055 /* HintsQuizService AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HintsQuizService AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14BE2F4FA5C500EF9055 /* HintsQuizView AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HintsQuizView AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14BF2F4FA5C500EF9055 /* HintsQuizViewModel AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HintsQuizViewModel AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14C02F4FA5C500EF9055 /* HomeView AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14C12F4FA5C500EF9055 /* ImagePicker AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImagePicker AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14C22F4FA5C500EF9055 /* NotificationManager AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationManager AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14C32F4FA5C500EF9055 /* ProfileView AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileView AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14C42F4FA5C500EF9055 /* QuestionService AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionService AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14C52F4FA5C500EF9055 /* QuestionViewModel AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionViewModel AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14C62F4FA5C500EF9055 /* QuizQuestion AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuizQuestion AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14C72F4FA5C500EF9055 /* QuizQuestionWithHints AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuizQuestionWithHints AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14C82F4FA5C500EF9055 /* QuizService AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuizService AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14C92F4FA5C500EF9055 /* QuizView AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuizView AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14CA2F4FA5C500EF9055 /* QuizViewModel AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuizViewModel AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14CB2F4FA5C500EF9055 /* SettingsView AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14CC2F4FA5C500EF9055 /* ThemeManager AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ThemeManager AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
-		4C1E14CD2F4FA5C500EF9055 /* WelcomeView AVRRMIEM300404K44F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeView AVRRMIEM300404K44F.swift"; sourceTree = "<group>"; };
 		4C1E14E62F4FA5D200EF9055 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4CB369512F38931C00B5B8E8 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB3695F2F38932200B5B8E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -134,30 +86,6 @@
 				4CB369612F38932200B5B8E8 /* TestProjectApp.swift */,
 				4C1E14E62F4FA5D200EF9055 /* ContentView.swift */,
 				4CE652C12F3D0F6800915DEC /* LoadingG AVRRMIEM300404K44F */,
-				4C1E14B62F4FA5C500EF9055 /* AIQuestionService AVRRMIEM300404K44F.swift */,
-				4C1E14B72F4FA5C500EF9055 /* ConstantColors AVRRMIEM300404K44F.swift */,
-				4C1E14B82F4FA5C500EF9055 /* exctension AVRRMIEM300404K44F.swift */,
-				4C1E14B92F4FA5C500EF9055 /* Fact AVRRMIEM300404K44F.swift */,
-				4C1E14BA2F4FA5C500EF9055 /* FactsView AVRRMIEM300404K44F.swift */,
-				4C1E14BB2F4FA5C500EF9055 /* FactsViewModel AVRRMIEM300404K44F.swift */,
-				4C1E14BC2F4FA5C500EF9055 /* GameModeSelectionView AVRRMIEM300404K44F.swift */,
-				4C1E14BD2F4FA5C500EF9055 /* HintsQuizService AVRRMIEM300404K44F.swift */,
-				4C1E14BE2F4FA5C500EF9055 /* HintsQuizView AVRRMIEM300404K44F.swift */,
-				4C1E14BF2F4FA5C500EF9055 /* HintsQuizViewModel AVRRMIEM300404K44F.swift */,
-				4C1E14C02F4FA5C500EF9055 /* HomeView AVRRMIEM300404K44F.swift */,
-				4C1E14C12F4FA5C500EF9055 /* ImagePicker AVRRMIEM300404K44F.swift */,
-				4C1E14C22F4FA5C500EF9055 /* NotificationManager AVRRMIEM300404K44F.swift */,
-				4C1E14C32F4FA5C500EF9055 /* ProfileView AVRRMIEM300404K44F.swift */,
-				4C1E14C42F4FA5C500EF9055 /* QuestionService AVRRMIEM300404K44F.swift */,
-				4C1E14C52F4FA5C500EF9055 /* QuestionViewModel AVRRMIEM300404K44F.swift */,
-				4C1E14C62F4FA5C500EF9055 /* QuizQuestion AVRRMIEM300404K44F.swift */,
-				4C1E14C72F4FA5C500EF9055 /* QuizQuestionWithHints AVRRMIEM300404K44F.swift */,
-				4C1E14C82F4FA5C500EF9055 /* QuizService AVRRMIEM300404K44F.swift */,
-				4C1E14C92F4FA5C500EF9055 /* QuizView AVRRMIEM300404K44F.swift */,
-				4C1E14CA2F4FA5C500EF9055 /* QuizViewModel AVRRMIEM300404K44F.swift */,
-				4C1E14CB2F4FA5C500EF9055 /* SettingsView AVRRMIEM300404K44F.swift */,
-				4C1E14CC2F4FA5C500EF9055 /* ThemeManager AVRRMIEM300404K44F.swift */,
-				4C1E14CD2F4FA5C500EF9055 /* WelcomeView AVRRMIEM300404K44F.swift */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -263,31 +191,7 @@
 				4CC2D47B2F3E41B400E6F6D6 /* ServerRequestService AVRRMIEM300404K44F.swift.swift in Sources */,
 				4CC2D47C2F3E41B400E6F6D6 /* DeviceDataCollector AVRRMIEM300404K44F.swift.swift in Sources */,
 				4CC2D47D2F3E41B400E6F6D6 /* LoadingManager AVRRMIEM300404K44F.swift.swift in Sources */,
-				4C1E14CE2F4FA5C500EF9055 /* FactsViewModel AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14CF2F4FA5C500EF9055 /* NotificationManager AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14D02F4FA5C500EF9055 /* QuizQuestionWithHints AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14D12F4FA5C500EF9055 /* ThemeManager AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14D22F4FA5C500EF9055 /* QuizView AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14D32F4FA5C500EF9055 /* ConstantColors AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14D42F4FA5C500EF9055 /* HintsQuizViewModel AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14D52F4FA5C500EF9055 /* FactsView AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14D62F4FA5C500EF9055 /* HintsQuizView AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14D72F4FA5C500EF9055 /* QuestionService AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14D82F4FA5C500EF9055 /* QuizViewModel AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14D92F4FA5C500EF9055 /* AIQuestionService AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14DA2F4FA5C500EF9055 /* QuizQuestion AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14DB2F4FA5C500EF9055 /* QuestionViewModel AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14DC2F4FA5C500EF9055 /* HintsQuizService AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14DD2F4FA5C500EF9055 /* SettingsView AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14DE2F4FA5C500EF9055 /* GameModeSelectionView AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14DF2F4FA5C500EF9055 /* QuizService AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14E02F4FA5C500EF9055 /* Fact AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14E12F4FA5C500EF9055 /* HomeView AVRRMIEM300404K44F.swift in Sources */,
 				4C1E14E72F4FA5D200EF9055 /* ContentView.swift in Sources */,
-				4C1E14E22F4FA5C500EF9055 /* exctension AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14E32F4FA5C500EF9055 /* ImagePicker AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14E42F4FA5C500EF9055 /* WelcomeView AVRRMIEM300404K44F.swift in Sources */,
-				4C1E14E52F4FA5C500EF9055 /* ProfileView AVRRMIEM300404K44F.swift in Sources */,
 				4CC2D4802F3E41B500E6F6D6 /* PushNotificationManager AVRRMIEM300404K44F.swift.swift in Sources */,
 				4CC2D4822F3E41B600E6F6D6 /* WebViewManager AVRRMIEM300404K44F.swift.swift in Sources */,
 				4CE652C22F3D0F6800915DEC /* WebView AVRRMIEM300404K44F.swift.swift in Sources */,
