@@ -21,7 +21,7 @@ class DeviceDataCollector {
             return true
         }
         
-        return true
+        return false
     }
     
     // Публічний метод для перевірки iPad

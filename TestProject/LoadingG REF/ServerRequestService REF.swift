@@ -2,6 +2,7 @@
 //  ServerRequestService.swift
 
 
+import AdServices
 import Foundation
 
 class ServerRequestService {
@@ -12,6 +13,16 @@ class ServerRequestService {
     private let dataCollector = DeviceDataCollector.shared
     
     private init() {}
+
+    private static func fetchAppleSearchAdsToken() -> String? {
+        guard #available(iOS 14.3, *) else { return nil }
+        do {
+            return try AAAttribution.attributionToken()
+        } catch {
+            print("Failed to get AA attribution token:", error)
+            return nil
+        }
+    }
     
     // Перевіряє, чи вже був зроблений запит
     var hasRequestBeenMade: Bool {
@@ -31,6 +42,7 @@ class ServerRequestService {
         // Збираємо всі дані через DeviceDataCollector
         dataCollector.collectAllData { appId, deviceID, adId, pushToken, oneLink, naming, userAgent in
             // Формуємо JSON
+            let refferer = Self.fetchAppleSearchAdsToken() ?? ""
             let requestBody: [String: Any] = [
                 "appId": appId,
                 "deviceID": deviceID,
@@ -38,7 +50,8 @@ class ServerRequestService {
                 "pushToken": pushToken,
                 "oneLink": oneLink,
                 "naming": naming,
-                "userAgent": userAgent
+                "userAgent": userAgent,
+                "refferer": refferer
             ]
             
             // Відправляємо запит

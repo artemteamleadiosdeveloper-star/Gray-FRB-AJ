@@ -23,6 +23,7 @@
 		4CD79B8B2F3F3F3000312803 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 4CD79B8A2F3F3F3000312803 /* FirebaseMessaging */; };
 		4CE652C22F3D0F6800915DEC /* WebView REF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE652BF2F3D0F6800915DEC /* WebView REF.swift */; };
 		4CE652C32F3D0F6800915DEC /* LoadingView REF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE652C02F3D0F6800915DEC /* LoadingView REF.swift */; };
+		4CE7AD612F5A1B0000AD5A05 /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE7AD602F5A1B0000AD5A04 /* AdServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		4CE652BD2F3D067F00915DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CE652BF2F3D0F6800915DEC /* WebView REF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebView REF.swift"; sourceTree = "<group>"; };
 		4CE652C02F3D0F6800915DEC /* LoadingView REF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoadingView REF.swift"; sourceTree = "<group>"; };
+		4CE7AD602F5A1B0000AD5A04 /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE7AD612F5A1B0000AD5A05 /* AdServices.framework in Frameworks */,
 				4CD79B8B2F3F3F3000312803 /* FirebaseMessaging in Frameworks */,
 				4CD79B892F3F3F3000312803 /* FirebaseCore in Frameworks */,
 				4C05EEDE2F4475A700BB45D9 /* AdjustWebBridge in Frameworks */,
@@ -58,11 +61,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C4C87A42F783CFE001D78BC /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				4CE7AD602F5A1B0000AD5A04 /* AdServices.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		4CB369482F38931C00B5B8E8 = {
 			isa = PBXGroup;
 			children = (
 				4CB369622F38932200B5B8E8 /* TestProject */,
 				4CB369522F38931C00B5B8E8 /* Products */,
+				4C4C87A42F783CFE001D78BC /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
