@@ -13,17 +13,16 @@
 		4C1E14E72F4FA5D200EF9055 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E14E62F4FA5D200EF9055 /* ContentView.swift */; };
 		4CB369632F38932200B5B8E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3695F2F38932200B5B8E8 /* Assets.xcassets */; };
 		4CB369652F38932200B5B8E8 /* TestProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB369612F38932200B5B8E8 /* TestProjectApp.swift */; };
-		4CC2D47B2F3E41B400E6F6D6 /* ServerRequestService AVRRMIEM300404K44F.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2D47A2F3E41B400E6F6D6 /* ServerRequestService AVRRMIEM300404K44F.swift.swift */; };
-		4CC2D47C2F3E41B400E6F6D6 /* DeviceDataCollector AVRRMIEM300404K44F.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2D4782F3E41B400E6F6D6 /* DeviceDataCollector AVRRMIEM300404K44F.swift.swift */; };
-		4CC2D47D2F3E41B400E6F6D6 /* LoadingManager AVRRMIEM300404K44F.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2D4792F3E41B400E6F6D6 /* LoadingManager AVRRMIEM300404K44F.swift.swift */; };
+		4CC2D47B2F3E41B400E6F6D6 /* ServerRequestService REF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2D47A2F3E41B400E6F6D6 /* ServerRequestService REF.swift */; };
+		4CC2D47C2F3E41B400E6F6D6 /* DeviceDataCollector REF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2D4782F3E41B400E6F6D6 /* DeviceDataCollector REF.swift */; };
+		4CC2D47D2F3E41B400E6F6D6 /* LoadingManager REF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2D4792F3E41B400E6F6D6 /* LoadingManager REF.swift */; };
 		4CC2D47F2F3E43A300E6F6D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CC2D47E2F3E43A300E6F6D6 /* GoogleService-Info.plist */; };
-		4CC2D4802F3E41B500E6F6D6 /* PushNotificationManager AVRRMIEM300404K44F.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2D4812F3E41B500E6F6D6 /* PushNotificationManager AVRRMIEM300404K44F.swift.swift */; };
-		4CC2D4822F3E41B600E6F6D6 /* WebViewManager AVRRMIEM300404K44F.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2D4832F3E41B600E6F6D6 /* WebViewManager AVRRMIEM300404K44F.swift.swift */; };
-		4CD79B862F3F3F1C00312803 /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4CD79B852F3F3F1C00312803 /* DeviceKit */; };
+		4CC2D4802F3E41B500E6F6D6 /* PushNotificationManager REF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2D4812F3E41B500E6F6D6 /* PushNotificationManager REF.swift */; };
+		4CC2D4822F3E41B600E6F6D6 /* WebViewManager REF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2D4832F3E41B600E6F6D6 /* WebViewManager REF.swift */; };
 		4CD79B892F3F3F3000312803 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4CD79B882F3F3F3000312803 /* FirebaseCore */; };
 		4CD79B8B2F3F3F3000312803 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 4CD79B8A2F3F3F3000312803 /* FirebaseMessaging */; };
-		4CE652C22F3D0F6800915DEC /* WebView AVRRMIEM300404K44F.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE652BF2F3D0F6800915DEC /* WebView AVRRMIEM300404K44F.swift.swift */; };
-		4CE652C32F3D0F6800915DEC /* LoadingView AVRRMIEM300404K44F.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE652C02F3D0F6800915DEC /* LoadingView AVRRMIEM300404K44F.swift.swift */; };
+		4CE652C22F3D0F6800915DEC /* WebView REF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE652BF2F3D0F6800915DEC /* WebView REF.swift */; };
+		4CE652C32F3D0F6800915DEC /* LoadingView REF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE652C02F3D0F6800915DEC /* LoadingView REF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,15 +31,15 @@
 		4CB3695F2F38932200B5B8E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CB369612F38932200B5B8E8 /* TestProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectApp.swift; sourceTree = "<group>"; };
 		4CC2D4702F3E3E6600E6F6D6 /* TestProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestProject.entitlements; sourceTree = "<group>"; };
-		4CC2D4782F3E41B400E6F6D6 /* DeviceDataCollector AVRRMIEM300404K44F.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeviceDataCollector AVRRMIEM300404K44F.swift.swift"; sourceTree = "<group>"; };
-		4CC2D4792F3E41B400E6F6D6 /* LoadingManager AVRRMIEM300404K44F.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoadingManager AVRRMIEM300404K44F.swift.swift"; sourceTree = "<group>"; };
-		4CC2D47A2F3E41B400E6F6D6 /* ServerRequestService AVRRMIEM300404K44F.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServerRequestService AVRRMIEM300404K44F.swift.swift"; sourceTree = "<group>"; };
+		4CC2D4782F3E41B400E6F6D6 /* DeviceDataCollector REF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeviceDataCollector REF.swift"; sourceTree = "<group>"; };
+		4CC2D4792F3E41B400E6F6D6 /* LoadingManager REF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoadingManager REF.swift"; sourceTree = "<group>"; };
+		4CC2D47A2F3E41B400E6F6D6 /* ServerRequestService REF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServerRequestService REF.swift"; sourceTree = "<group>"; };
 		4CC2D47E2F3E43A300E6F6D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		4CC2D4812F3E41B500E6F6D6 /* PushNotificationManager AVRRMIEM300404K44F.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PushNotificationManager AVRRMIEM300404K44F.swift.swift"; sourceTree = "<group>"; };
-		4CC2D4832F3E41B600E6F6D6 /* WebViewManager AVRRMIEM300404K44F.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebViewManager AVRRMIEM300404K44F.swift.swift"; sourceTree = "<group>"; };
+		4CC2D4812F3E41B500E6F6D6 /* PushNotificationManager REF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PushNotificationManager REF.swift"; sourceTree = "<group>"; };
+		4CC2D4832F3E41B600E6F6D6 /* WebViewManager REF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebViewManager REF.swift"; sourceTree = "<group>"; };
 		4CE652BD2F3D067F00915DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CE652BF2F3D0F6800915DEC /* WebView AVRRMIEM300404K44F.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebView AVRRMIEM300404K44F.swift.swift"; sourceTree = "<group>"; };
-		4CE652C02F3D0F6800915DEC /* LoadingView AVRRMIEM300404K44F.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoadingView AVRRMIEM300404K44F.swift.swift"; sourceTree = "<group>"; };
+		4CE652BF2F3D0F6800915DEC /* WebView REF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebView REF.swift"; sourceTree = "<group>"; };
+		4CE652C02F3D0F6800915DEC /* LoadingView REF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoadingView REF.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +49,6 @@
 			files = (
 				4CD79B8B2F3F3F3000312803 /* FirebaseMessaging in Frameworks */,
 				4CD79B892F3F3F3000312803 /* FirebaseCore in Frameworks */,
-				4CD79B862F3F3F1C00312803 /* DeviceKit in Frameworks */,
 				4C05EEDE2F4475A700BB45D9 /* AdjustWebBridge in Frameworks */,
 				4C05EEDC2F4475A700BB45D9 /* AdjustSdk in Frameworks */,
 				4C05EEDA2F4475A700BB45D9 /* AdjustGoogleOdm in Frameworks */,
@@ -85,23 +83,23 @@
 				4CC2D47E2F3E43A300E6F6D6 /* GoogleService-Info.plist */,
 				4CB369612F38932200B5B8E8 /* TestProjectApp.swift */,
 				4C1E14E62F4FA5D200EF9055 /* ContentView.swift */,
-				4CE652C12F3D0F6800915DEC /* LoadingG AVRRMIEM300404K44F */,
+				4CE652C12F3D0F6800915DEC /* LoadingG REF */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
 		};
-		4CE652C12F3D0F6800915DEC /* LoadingG AVRRMIEM300404K44F */ = {
+		4CE652C12F3D0F6800915DEC /* LoadingG REF */ = {
 			isa = PBXGroup;
 			children = (
-				4CE652C02F3D0F6800915DEC /* LoadingView AVRRMIEM300404K44F.swift.swift */,
-				4CC2D4782F3E41B400E6F6D6 /* DeviceDataCollector AVRRMIEM300404K44F.swift.swift */,
-				4CC2D4792F3E41B400E6F6D6 /* LoadingManager AVRRMIEM300404K44F.swift.swift */,
-				4CC2D47A2F3E41B400E6F6D6 /* ServerRequestService AVRRMIEM300404K44F.swift.swift */,
-				4CC2D4812F3E41B500E6F6D6 /* PushNotificationManager AVRRMIEM300404K44F.swift.swift */,
-				4CC2D4832F3E41B600E6F6D6 /* WebViewManager AVRRMIEM300404K44F.swift.swift */,
-				4CE652BF2F3D0F6800915DEC /* WebView AVRRMIEM300404K44F.swift.swift */,
+				4CE652C02F3D0F6800915DEC /* LoadingView REF.swift */,
+				4CC2D4782F3E41B400E6F6D6 /* DeviceDataCollector REF.swift */,
+				4CC2D4792F3E41B400E6F6D6 /* LoadingManager REF.swift */,
+				4CC2D47A2F3E41B400E6F6D6 /* ServerRequestService REF.swift */,
+				4CC2D4812F3E41B500E6F6D6 /* PushNotificationManager REF.swift */,
+				4CC2D4832F3E41B600E6F6D6 /* WebViewManager REF.swift */,
+				4CE652BF2F3D0F6800915DEC /* WebView REF.swift */,
 			);
-			path = "LoadingG AVRRMIEM300404K44F";
+			path = "LoadingG REF";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,7 +119,6 @@
 			);
 			name = TestProject;
 			packageProductDependencies = (
-				4CD79B852F3F3F1C00312803 /* DeviceKit */,
 				4CD79B882F3F3F3000312803 /* FirebaseCore */,
 				4CD79B8A2F3F3F3000312803 /* FirebaseMessaging */,
 				4C05EED92F4475A700BB45D9 /* AdjustGoogleOdm */,
@@ -157,7 +154,6 @@
 			mainGroup = 4CB369482F38931C00B5B8E8;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				4CD79B842F3F3F1C00312803 /* XCRemoteSwiftPackageReference "DeviceKit" */,
 				4CD79B872F3F3F3000312803 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				4C05EED82F4475A700BB45D9 /* XCRemoteSwiftPackageReference "ios_sdk" */,
 			);
@@ -188,14 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CC2D47B2F3E41B400E6F6D6 /* ServerRequestService AVRRMIEM300404K44F.swift.swift in Sources */,
-				4CC2D47C2F3E41B400E6F6D6 /* DeviceDataCollector AVRRMIEM300404K44F.swift.swift in Sources */,
-				4CC2D47D2F3E41B400E6F6D6 /* LoadingManager AVRRMIEM300404K44F.swift.swift in Sources */,
+				4CC2D47B2F3E41B400E6F6D6 /* ServerRequestService REF.swift in Sources */,
+				4CC2D47C2F3E41B400E6F6D6 /* DeviceDataCollector REF.swift in Sources */,
+				4CC2D47D2F3E41B400E6F6D6 /* LoadingManager REF.swift in Sources */,
 				4C1E14E72F4FA5D200EF9055 /* ContentView.swift in Sources */,
-				4CC2D4802F3E41B500E6F6D6 /* PushNotificationManager AVRRMIEM300404K44F.swift.swift in Sources */,
-				4CC2D4822F3E41B600E6F6D6 /* WebViewManager AVRRMIEM300404K44F.swift.swift in Sources */,
-				4CE652C22F3D0F6800915DEC /* WebView AVRRMIEM300404K44F.swift.swift in Sources */,
-				4CE652C32F3D0F6800915DEC /* LoadingView AVRRMIEM300404K44F.swift.swift in Sources */,
+				4CC2D4802F3E41B500E6F6D6 /* PushNotificationManager REF.swift in Sources */,
+				4CC2D4822F3E41B600E6F6D6 /* WebViewManager REF.swift in Sources */,
+				4CE652C22F3D0F6800915DEC /* WebView REF.swift in Sources */,
+				4CE652C32F3D0F6800915DEC /* LoadingView REF.swift in Sources */,
 				4CB369652F38932200B5B8E8 /* TestProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,14 +434,6 @@
 				kind = branch;
 			};
 		};
-		4CD79B842F3F3F1C00312803 /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/devicekit/DeviceKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.7.0;
-			};
-		};
 		4CD79B872F3F3F3000312803 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -471,11 +459,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4C05EED82F4475A700BB45D9 /* XCRemoteSwiftPackageReference "ios_sdk" */;
 			productName = AdjustWebBridge;
-		};
-		4CD79B852F3F3F1C00312803 /* DeviceKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4CD79B842F3F3F1C00312803 /* XCRemoteSwiftPackageReference "DeviceKit" */;
-			productName = DeviceKit;
 		};
 		4CD79B882F3F3F3000312803 /* FirebaseCore */ = {
 			isa = XCSwiftPackageProductDependency;

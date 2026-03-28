@@ -7,7 +7,6 @@ import UIKit
 import WebKit
 import FirebaseCore
 import FirebaseMessaging
-import DeviceKit
 import AdSupport
 import AdjustSdk
 
@@ -22,9 +21,7 @@ class DeviceDataCollector {
             return true
         }
         
-        let device = Device.current.description
-        print("Device is: \(device)")
-        return device.lowercased().contains("ipad") || device.contains("SE")
+        return true
     }
     
     // Публічний метод для перевірки iPad

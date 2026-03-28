@@ -1,9 +1,9 @@
 
     import SwiftUI
 
-struct LoadingViewAVRRMIEM300404K44F: View {
+struct LoadingViewREF: View {
 
-    @StateObject private var loadingManagerAVRRMIEM300404K44F = LoadingManager.shared
+    @StateObject private var loadingManagerREF = LoadingManager.shared
     @Binding var showView: Bool
     
     var body: some View {
@@ -14,20 +14,20 @@ struct LoadingViewAVRRMIEM300404K44F: View {
         .onAppear {
             // Ініціалізуємо WebView при запуску для отримання userAgent
             WebViewManager.shared.initializeWebView { _ in
-                loadingManagerAVRRMIEM300404K44F.performInitialRequest()
+                loadingManagerREF.performInitialRequest()
             }
         }
-        .onChange(of: loadingManagerAVRRMIEM300404K44F.urlString) { newValue in
+        .onChange(of: loadingManagerREF.urlString) { newValue in
             handleUrlStringChange(newValue)
         }
-        .onChange(of: loadingManagerAVRRMIEM300404K44F.shouldHideLoading) { shouldHide in
+        .onChange(of: loadingManagerREF.shouldHideLoading) { shouldHide in
             if shouldHide {
                 showView = false
             }
         }
         .overlay {
-            if loadingManagerAVRRMIEM300404K44F.shouldShowWebView {
-                webViewAVRRMIEM300404K44F(urlAVRRMIEM300404K44F: loadingManagerAVRRMIEM300404K44F.urlString)
+            if loadingManagerREF.shouldShowWebView {
+                webViewREF(urlREF: loadingManagerREF.urlString)
             }
         }
     }
@@ -42,8 +42,8 @@ struct LoadingViewAVRRMIEM300404K44F: View {
     }
 }
 
-func webViewAVRRMIEM300404K44F(urlAVRRMIEM300404K44F: String) -> some View {
-    WebViewCont(urlString: urlAVRRMIEM300404K44F)
+func webViewREF(urlREF: String) -> some View {
+    WebViewCont(urlString: urlREF)
         .edgesIgnoringSafeArea(.all)
         .onTapGesture {
             UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
@@ -56,6 +56,6 @@ func webViewAVRRMIEM300404K44F(urlAVRRMIEM300404K44F: String) -> some View {
 
 
 #Preview {
-    LoadingViewAVRRMIEM300404K44F(showView: .constant(true))
+    LoadingViewREF(showView: .constant(true))
 }
 

@@ -1,20 +1,20 @@
 //
 //  ContentView.swift
-//  AVRRMIEM300404K44F
+//  REF
 //
 //  Created by Tehnichka on 09.02.2026.
 //
 
 import SwiftUI
 
-struct ContentViewAVRRMIEM300404K44F: View {
+struct ContentViewREF: View {
     @State var showLoading = true
     
     var body: some View {
         ZStack {
             
             if showLoading {
-                LoadingViewAVRRMIEM300404K44F(showView: $showLoading)
+                LoadingViewREF(showView: $showLoading)
             } else {
                 // Main content
             }
@@ -23,7 +23,7 @@ struct ContentViewAVRRMIEM300404K44F: View {
 }
 
 #Preview {
-    ContentViewAVRRMIEM300404K44F()
+    ContentViewREF()
 
 }
 

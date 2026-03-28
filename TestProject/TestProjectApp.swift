@@ -19,7 +19,7 @@ struct TestProjectApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentViewAVRRMIEM300404K44F()
+            ContentViewREF()
                 .preferredColorScheme(.dark)
         }
     }
